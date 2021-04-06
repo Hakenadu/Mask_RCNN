@@ -4,8 +4,8 @@ Pillow
 cython
 matplotlib
 scikit-image
-tensorflow==2.3.0
-keras==2.4.3
+tensorflow
+keras
 opencv-python
 h5py
 imgaug
