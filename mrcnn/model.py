@@ -1724,7 +1724,7 @@ class DataGenerator(KU.Sequence):
             # where we train on a subset of classes and the image doesn't
             # have any of the classes we care about.
             if not np.any(gt_class_ids > 0):
-		print("skipping %s" % image_id) # infinite loop?
+                print("skipping %s" % image_id) # infinite loop?
                 continue
 
             # RPN Targets
